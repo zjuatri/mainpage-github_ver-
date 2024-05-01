@@ -1,0 +1,38 @@
+.head {
+    width: 20%;
+    display: flex;
+    position: absolute;
+    padding-left: 15px;
+    margin-top: 10px;
+    
+}
+
+
+.title {
+    font-size: 25px;
+    line-height: 50px;
+    flex-grow: 1;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #5075CD;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    padding-bottom: 10px;
+}
+
+.NavBar{
+    margin-top: 10px;
+    width:100%;
+}
+
+.title{
+    margin-left: 10px;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+}

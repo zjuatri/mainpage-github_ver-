@@ -1,0 +1,54 @@
+.body{
+    height: calc(100vh );
+}
+.main_box{
+    justify-content: center;
+    width:100%;
+}
+
+
+.jp{
+    position: absolute;    
+    top:13.9%;
+    left:2.96%;
+}
+
+.character{
+    width:100%;
+    background: url("/character.png") center bottom no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+
+.background{
+    width:100%;
+
+}
+
+.footer{
+    border-top: 2px solid #dbdbe3;
+}
+
+.social_media{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.social_icon{
+    margin-left: 5px;
+}
+
+.copyright{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    width: 100%;;
+    justify-content: center;
+}
+
+
+

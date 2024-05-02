@@ -1,6 +1,7 @@
 .body{
-    height: calc(100vh );
+    height: calc(100vh - 176px);
 }
+
 .main_box{
     justify-content: center;
     width:100%;

@@ -1,0 +1,130 @@
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.f_container {
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    display: block;
+    z-index: 0;
+}
+
+.f_box {
+    width: 10%;
+    margin: 2%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.f_box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+
+/*.f_box2::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: aqua;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.f_box2:hover::before{
+    transform: scaleY(1);
+    transform-origin:top;
+    transition: transform 0.5s;
+}
+*/
+.f_box2::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 150%;
+    background-color: aqua;
+    animation: rotate 3s linear infinite;
+    z-index:-2;
+
+}
+
+.f_box2:hover::after {
+    z-index: -3;
+}
+
+.f_box2::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+} 
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*.f_box2::after{
+    content: "";
+    position: absolute;
+    width:95%;
+    height:95%;
+    background-color: aquamarine;
+    z-index: 1;
+
+}
+*/
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.f_box2:hover::before {
+    display: block;
+}
+
+.f_icon {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.f_intro {
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    color: black;
+}

@@ -24,39 +24,6 @@ export default function Home() {
         />
         <div className="character"></div>
         </div>
-        <footer className="footer">
-          <div className="social_media">
-          <Link href={"https://www.zhihu.com/people/wztsxyh"}>
-          <Image
-          className="social_icon"
-          alt="知乎"
-          src={"/zhihu.svg"}
-          width={50}
-          height={50}
-          />
-          </Link>
-          <Link href={"https://github.com/zjuatri"}>
-          <Image
-          className="social_icon"
-          alt="github"
-          src={"/github.svg"}
-          width={50}
-          height={50}
-          />
-          </Link>
-          <Link href={"https://space.bilibili.com/498525616"}>
-            <Image
-            className="social_icon"
-            alt="bilibili"
-            src={"/bilibili.svg"}
-            width={50}
-            height={50}></Image>
-          </Link>
-          </div>
-          <div className="copyright">
-            <span>©2024 by zjuatri</span>
-          </div>
-        </footer>
     </div>
   );
 }

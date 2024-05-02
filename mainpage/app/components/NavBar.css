@@ -34,7 +34,7 @@
 .nav-box{
     position:absolute;
     height: 8px;
-    border-radius: 2px;
+    border-radius: 5px;
     transition-duration: 0.5s;
     width: 20%;
     bottom: 0;

@@ -1,6 +1,8 @@
 import "./intro.css"
 
 export default function(){
-    return(<></>);
+    return(<div className="body">
+
+    </div>);
 }
 

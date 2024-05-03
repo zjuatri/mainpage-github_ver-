@@ -1,29 +1,49 @@
-import friends_data from "./friends_data.json"
+"use client"
 import "./friends.css"
-import Image from "next/image";
-import Link from "next/link";
+import { Fragment, useState } from "react";
+import friends_data from "./friends_data.json"
+import Ficon from "./f_icon";
 
-export default async function friends() {
+
+export default function friends() {
     const data = friends_data.information;
+    const [content,setContent] = useState()
+
+    function rerender(index) {
+        if(index == -1){
+            setContent()
+        }
+        else{
+            const friend = data[index];
+            setContent(
+                <Fragment>
+                <img
+                className="i_icon"
+                src={friend.src}
+                alt={friend.alt}/>
+            <div className="i_title">
+                {friend.title}
+            </div>
+            <div className="i_text">{friend.text}</div>
+            </Fragment>);
+        }
+    }
+
     return (
         <div className="body">
             <div className="f_container">
                 {data.map(function (item, index) {
                     return (<div className="f_box" key={index}>
-                        <div className="f_box2">
-                            <Link href={item.url}>
-                                <img
-                                    className="f_icon"
-                                    alt={item.title}
-                                    src={item.src}>
-                                </img>
-                            </Link>
-                        </div>
+                        <Ficon
+                            item={item}
+                            index={index}
+                            rerender={rerender}
+                        />
                     </div>);
                 })}
             </div>
             <div className="f_intro">
-                
+                {content}
             </div>
         </div>
     );

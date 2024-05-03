@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.footer{
+  border-top: 2px solid #dbdbe3;
+}
+
+.body{
+  height: calc(100vh - 176px);
+}

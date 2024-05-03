@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-around;
 
-
 }
 
 .f_container {
@@ -16,6 +15,9 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     display: block;
     z-index: 0;
+    background-image: url(/noa.svg);
+    background-position: top right;
+    background-size: cover;
 }
 
 .f_box {
@@ -125,6 +127,36 @@
     margin-bottom: 20px;
     box-shadow: 2px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-    display: flex;
+    display: block;
     color: black;
+    background-image: url(/nanami.svg);
+    background-size: cover;
+    background-position: 60% 0;
+}
+
+.i_icon{
+    margin-left:5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 2%;
+    width:20%;
+    height:auto;
+    display: inline-block;
+
+}
+
+.i_title{
+    color:rgb(121, 198, 204);
+    font-size:40px;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width:70%
+}
+
+.i_text{
+    color:#5075CD;
+    font-size: 40px;
+    text-align: center;
 }

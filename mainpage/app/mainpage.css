@@ -1,6 +1,4 @@
-.body{
-    height: calc(100vh - 176px);
-}
+
 
 .main_box{
     justify-content: center;
@@ -27,29 +25,8 @@
 
 }
 
-.footer{
-    border-top: 2px solid #dbdbe3;
-}
 
-.social_media{
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
 
-.social_icon{
-    margin-left: 5px;
-}
-
-.copyright{
-    color: white;
-    font-size: 20px;
-    display: flex;
-    width: 100%;;
-    justify-content: center;
-}
 
 
 

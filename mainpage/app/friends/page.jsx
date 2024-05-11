@@ -30,7 +30,7 @@ export default function friends() {
     }
 
     return (
-        <div className="body">
+        <div className="f_body">
             <div className="f_container">
                 {data.map(function (item, index) {
                     return (<div className="f_box" key={index}>

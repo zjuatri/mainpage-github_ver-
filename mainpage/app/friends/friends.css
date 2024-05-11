@@ -1,5 +1,5 @@
-.body {
-    width: 100%;
+.f_body {
+    height: calc(100vh - 176px);
     display: flex;
     justify-content: space-around;
 

@@ -1,0 +1,30 @@
+.body{
+    height: calc(100vh - 176px);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: aliceblue;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.ciallo{
+    height:50%
+}

@@ -1,0 +1,22 @@
+.body{
+    height: calc(100vh - 176px);
+    display: flex;
+    justify-content: center;
+}
+
+.b_box{
+    width:50%;
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.a_box{
+    font-size: 20px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    justify-content: space-between;
+}

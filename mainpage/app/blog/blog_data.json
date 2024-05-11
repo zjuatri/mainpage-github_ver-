@@ -1,0 +1,46 @@
+{
+    "information": [
+        {
+            "url": "/blog/special/mothersDay",
+            "title": "母亲节快乐",
+            "date": "2024/5/12",
+            "type": "特殊板块"
+        },
+        {
+            "url": "/vjf_mid.html",
+            "title": "微积分甲II期中复习梳理",
+            "date": "2024/5/12",
+            "type": "课内笔记"
+        },
+        {
+            "url": "/physics_mid.html",
+            "title": "大学物理期中复习梳理",
+            "date": "2024/5/12",
+            "type": "课内笔记"
+        },
+        {
+            "url": "/prob_theory.html",
+            "title": "概率论与数理统计小测复习",
+            "date": "2024/5/12",
+            "type": "课内笔记"
+        },
+        {
+            "url": "/matlab.html",
+            "title": "科学计算导论笔记",
+            "date": "2024/5/12",
+            "type": "课内笔记"
+        },
+        {
+            "url": "/工化/工程化学.pdf",
+            "title": "工程化学补天.pdf",
+            "date": "2024/5/12",
+            "type": "课内笔记"
+        },
+        {
+            "url": "/CS571.html",
+            "title": "CS571自学笔记",
+            "date": "2024/5/12",
+            "type": "前端学习"
+        }
+    ]
+}

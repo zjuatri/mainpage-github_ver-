@@ -1,15 +1,18 @@
 .body{
     height: calc(100vh - 176px);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .container{
     margin-top: 10px;
     margin-bottom: 10px;
-    display: flex;
+
     justify-content: center;
     align-items: center;
+    display: flex;
+    width:100%;
 }
 
 .content{
@@ -26,5 +29,8 @@
 }
 
 .ciallo{
-    height:50%
+    width:40%;
+}
+.gift{
+    width:70%
 }

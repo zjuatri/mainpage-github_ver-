@@ -15,7 +15,7 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     display: block;
     z-index: 0;
-    background-image: url(/noa.svg);
+    background-image: url(/noa.png);
     background-position: top right;
     background-size: cover;
 }
@@ -129,7 +129,7 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     display: block;
     color: black;
-    background-image: url(/nanami.svg);
+    background-image: url(/nanami.png);
     background-size: cover;
     background-position: 60% 0;
 }
